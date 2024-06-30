@@ -6,9 +6,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 Bot = Client(
     "Telegraph Uploader Bot",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH")
+    bot_token=os.environ.get("6511014299:AAEIdpFOs818gKhuLYMVeFnd5zSWTGkZmM8"),
+    api_id=int(os.environ.get("26021206")),
+    api_hash=os.environ.get("cd9a575457394f081ac8ca5a82673a16")
 )
 
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
@@ -16,7 +16,7 @@ DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 START_TEXT = """Hello {},
 I am an under 5MB media or file to telegra.ph link uploader bot.
 
-Made by @FayasNoushad"""
+Made by @Saboherex"""
 
 HELP_TEXT = """--**Help**--
 
@@ -29,16 +29,16 @@ ABOUT_TEXT = """--**About Me**--
 
 - **Bot :** `Telegraph Uploader`
 - **Developer :**
-  • [GitHub](https://github.com/FayasNoushad)
-  • [Telegram](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Telegraph-Uploader-Bot)
+  • [GitHub](soon)
+  • [Telegram](https://telegram.me/Saboherex)
+- **Source :** [Click here](SOON)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)"""
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Feedback', url='https://telegram.me/FayasNoushad')
+            InlineKeyboardButton('Feedback', url='https://telegram.me/Saboherex')
         ],
         [
             InlineKeyboardButton('Help', callback_data='help'),
@@ -140,7 +140,7 @@ async def getmedia(bot, update):
         )
         return
     
-    text=f"**Link :-** `https://telegra.ph{response[0]}`\n\n**Join :-** @FayasNoushad"
+    text=f"**Link :-** `https://telegra.ph{response[0]}`\n\n**Join :-** @Saboherex"
     reply_markup=InlineKeyboardMarkup(
         [
             [
